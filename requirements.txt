@@ -1,0 +1,12 @@
+# --- Core Data Processing ---
+polars>=1.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# --- Database & Cloud Connectivity ---
+sqlalchemy>=2.0.0
+pyodbc>=4.0.0
+python-dotenv>=1.0.0
+
+# --- File Handling & Utilities ---
+openpyxl>=3.1.0
