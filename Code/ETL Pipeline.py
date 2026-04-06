@@ -270,9 +270,9 @@ class Database:
         self.engine = create_engine(
             conn_str, 
             pool_pre_ping=True,
-            pool_size=
+            pool_size=5,
             connect_args=5,
-            max_overflow=2,
+            max_overflow={
                 "timeout": 120
             }
         )
